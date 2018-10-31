@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Página 2</title>
+    <meta charset="utf-8">
+    		<style type="text/css">
+			h1{
+				text-align: center;
+			}
+			table{
+				border-collapse: collapse;
+				margin: auto;
+			}
+			table,tr,td{
+				border: 1px solid black;
+				padding: 25px;
+				text-align: center;
+			}
+			div{
+				margin: auto;
+				width: 50%;
+				border: 3px solid brown;
+				padding: 10px;
+			}
+		</style>
+  </head>
+  <body>
+    <h1>ESTA EN PÁGINA CON UNA TABLA </h1>
+   <a href=index.html> Volver</a>
+   <head>
+		<table>
+			<tr>
+				<td colspan="3">A</td>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td colspan="2">D</td>
+				<td>E</td>
+			</tr>
+			<tr>
+				<td colspan="4">F</td>
+			</tr>
+			<tr>
+				<td>G</td>
+				<td>H</td>
+				<td>I</td>
+				<td>J</td>
+			</tr>
+		</table>
+		<h1> Fusión de Filas</h1>
+		<table>
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td rowspan="3">C</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td rowspan="2">E</td>
+				<td>F</td>
+				<td rowspan="3">G</td>
+			</tr>
+			<tr>
+				<td>H</td>
+			<tr>
+				<td>I</td>
+				<td>J</td>
+				<td>K</td>
+			</tr>
+		</table>
+  </body>
+</html>
